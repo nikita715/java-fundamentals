@@ -1,4 +1,6 @@
+.gitignore
 .DS_Store
 *.iml
 .gitattributes
 .idea
+out/
