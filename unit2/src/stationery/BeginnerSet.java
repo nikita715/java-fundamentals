@@ -33,13 +33,4 @@ public class BeginnerSet {
         return items.stream().sorted(Comparator.comparing(StationeryItem::getCost)
                 .thenComparing(StationeryItem::getName)).collect(Collectors.toList());
     }
-
-    public static void main(String[] args) {
-        BeginnerSet bs = new BeginnerSet();
-        bs.getItemsSortedByCost().stream().map(StationeryItem::toString).forEach(System.out::println);
-        System.out.println();
-        bs.getItemsSortedByCostAndName().stream().map(StationeryItem::toString).forEach(System.out::println);
-        System.out.println();
-        bs.getItemsSortedByName().stream().map(StationeryItem::toString).forEach(System.out::println);
-    }
 }
