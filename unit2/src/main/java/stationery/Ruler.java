@@ -1,18 +1,16 @@
 package stationery;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Ruler extends StationeryItem {
+
+    @Getter
+    @Setter
     private int length;
 
     public Ruler(String name, int cost, int length) {
         super(name, cost);
-        this.length = length;
-    }
-
-    public int getLength() {
-        return length;
-    }
-
-    public void setLength(int length) {
         this.length = length;
     }
 
