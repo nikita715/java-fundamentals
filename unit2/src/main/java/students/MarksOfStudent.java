@@ -1,17 +1,16 @@
 package students;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@NoArgsConstructor
+@AllArgsConstructor
 public class MarksOfStudent {
     private Map<Discipline, List<Mark>> marks = new HashMap<>();
-
-    public MarksOfStudent() {}
-
-    public MarksOfStudent(Map<Discipline, List<Mark>> marks) {
-        this.marks = marks;
-    }
 
     public void add(Discipline discipline, List<Mark> marksList) {
         if (!marks.containsKey(discipline)) {

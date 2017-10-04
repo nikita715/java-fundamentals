@@ -1,15 +1,16 @@
 package students;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 public interface Mark {
     Number getMark();
 }
 
+@AllArgsConstructor
 class FloatMark implements Mark {
-    private float mark;
 
-    public FloatMark(float mark) {
-        this.mark = mark;
-    }
+    private float mark;
 
     @Override
     public Number getMark() {
@@ -17,12 +18,10 @@ class FloatMark implements Mark {
     }
 }
 
+@AllArgsConstructor
 class IntMark implements Mark {
-    private int mark;
 
-    public IntMark(int mark) {
-        this.mark = mark;
-    }
+    private int mark;
 
     @Override
     public Number getMark() {
