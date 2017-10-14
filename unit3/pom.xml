@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>unit3</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../unit4</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
