@@ -11,9 +11,9 @@ public class KeyWordsByteSearcher implements KeyWordsSearcher {
     public KeyWordsByteSearcher(String filePath, Charset charset) {
         byte[] bytes = new byte[0];
 
-        try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(filePath))) {
-            bytes = new byte[bis.available()];
-            bytes = bis.readAllBytes();
+        try (BufferedInputStream inputStream = new BufferedInputStream(new FileInputStream(filePath))) {
+            bytes = new byte[inputStream.available()];
+            bytes = inputStream.readAllBytes();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -33,9 +33,9 @@ public class KeyWordsByteSearcher implements KeyWordsSearcher {
 
     @Override
     public void extractInto(String fileName) {
-        try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(fileName))) {
+        try (BufferedOutputStream outputStream = new BufferedOutputStream(new FileOutputStream(fileName))) {
             for (String keyWord: foundedKeyWords.keySet()) {
-                bos.write(String.format(OUTPUT_FORMAT, keyWord, foundedKeyWords.get(keyWord)).getBytes());
+                outputStream.write(String.format(OUTPUT_FORMAT, keyWord, foundedKeyWords.get(keyWord)).getBytes());
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -11,9 +11,9 @@ public class KeyWordsSymbolSearcher implements KeyWordsSearcher {
 
     public KeyWordsSymbolSearcher(String filePath, Charset charset) {
         String lines = "";
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
-            while ((line = br.readLine()) != null) {
+            while ((line = reader.readLine()) != null) {
                 lines = lines.concat(line);
             }
         } catch (IOException e) {
@@ -34,9 +34,9 @@ public class KeyWordsSymbolSearcher implements KeyWordsSearcher {
 
     @Override
     public void extractInto(String fileName) {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(fileName))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
             for (Map.Entry<String, Integer> keyWordRecord : foundedKeyWords.entrySet()) {
-                bw.write(String.format(OUTPUT_FORMAT, keyWordRecord.getKey(), keyWordRecord.getValue()));
+                writer.write(String.format(OUTPUT_FORMAT, keyWordRecord.getKey(), keyWordRecord.getValue()));
             }
         } catch (IOException e) {
             e.printStackTrace();
