@@ -3,5 +3,4 @@
 .gitattributes
 .idea
 out/
-.gitignore
 */target/*
