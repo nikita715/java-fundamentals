@@ -1,0 +1,13 @@
+new - 8
+private - 2
+package - 1
+void - 4
+static - 1
+import - 4
+this - 1
+for - 1
+public - 8
+try - 2
+catch - 2
+class - 1
+return - 1
