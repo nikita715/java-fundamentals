@@ -13,6 +13,7 @@
         <module>unit3</module>
         <module>unit4</module>
         <module>unit5</module>
+        <module>unit6</module>
     </modules>
     <packaging>pom</packaging>
 
