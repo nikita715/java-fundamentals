@@ -19,3 +19,11 @@ Repo for my course tasks
 - [charsets](https://github.com/nikita715/java-fundamentals/tree/master/unit4/src/main/java/charsets)
 - [keywords](https://github.com/nikita715/java-fundamentals/tree/master/unit4/src/main/java/keywords)
 - [serialization](https://github.com/nikita715/java-fundamentals/tree/master/unit4/src/main/java/serialization)
+## Unit 5
+- [filesystem](https://github.com/nikita715/java-fundamentals/tree/master/unit5/src/main/java/filesystem)
+- [props (with class Properties)](https://github.com/nikita715/java-fundamentals/tree/master/unit5/src/main/java/props)
+## Unit 6
+- [features of collections](https://github.com/nikita715/java-fundamentals/blob/master/unit6/src/main/java/task1.md)
+- [props (with Map)](https://github.com/nikita715/java-fundamentals/tree/master/unit5/src/main/java/props)
+- [assignments of links](https://github.com/nikita715/java-fundamentals/blob/master/unit6/src/main/java/task3.md)
+- [functions of collections](https://github.com/nikita715/java-fundamentals/blob/master/unit6/src/main/java/task4.md)
