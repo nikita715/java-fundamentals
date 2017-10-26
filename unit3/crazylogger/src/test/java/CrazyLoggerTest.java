@@ -1,3 +1,4 @@
+import javase03.crazylogger.CrazyLogger;
 import org.junit.jupiter.api.Test;
 
 class CrazyLoggerTest {

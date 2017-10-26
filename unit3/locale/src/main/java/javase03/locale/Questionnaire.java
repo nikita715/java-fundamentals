@@ -1,3 +1,5 @@
+package javase03.locale;
+
 import org.apache.log4j.BasicConfigurator;
 
 import java.io.PrintStream;

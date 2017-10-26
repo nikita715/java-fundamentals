@@ -1,3 +1,5 @@
+package javase03.locale;
+
 class QuestionAndAnswer {
     private String question;
     private String answer;

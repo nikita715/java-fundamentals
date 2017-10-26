@@ -1,3 +1,5 @@
+package javase03.locale;
+
 import java.util.*;
 
 public class ResourceService {

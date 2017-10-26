@@ -1,3 +1,5 @@
+package javase03.crazylogger;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
