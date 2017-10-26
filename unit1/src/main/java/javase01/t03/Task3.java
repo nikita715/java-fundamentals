@@ -22,7 +22,7 @@ public class Task3 {
         double h = s.nextDouble();
 
         for (double x = a; x <= b; x += h) {
-            System.out.printf("x = %.4f | F = %.4f\n", x, getF(x));
+            System.out.printf("x = %.4f | F = %.4f%n", x, getF(x));
         }
     }
 }

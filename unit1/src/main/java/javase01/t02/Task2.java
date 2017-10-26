@@ -21,7 +21,7 @@ public class Task2 {
             if (a < eps) {
                 break;
             }
-            System.out.printf("%.4f\n", a);
+            System.out.printf("%.4f%n", a);
         }
         System.out.println(i - 1);
     }

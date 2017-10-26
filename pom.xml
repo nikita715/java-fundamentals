@@ -9,11 +9,18 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>unit1</module>
-        <module>unit2</module>
-        <module>unit3</module>
-        <module>unit4</module>
-        <module>unit5</module>
-        <module>unit6</module>
+        <module>unit2/atomicboat</module>
+        <module>unit2/stationery</module>
+        <module>unit2/students</module>
+        <module>unit3/crazylogger</module>
+        <module>unit3/locale</module>
+        <module>unit3/regexp</module>
+        <module>unit4/charsets</module>
+        <module>unit4/keywords</module>
+        <module>unit4/serialization</module>
+        <module>unit5/filesystem</module>
+        <module>unit5/props</module>
+        <module>unit6/propsmap</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -39,6 +46,11 @@
             <artifactId>log4j-core</artifactId>
             <version>LATEST</version>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.0.1</version>
         </dependency>
     </dependencies>
 
