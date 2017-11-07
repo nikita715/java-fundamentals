@@ -21,6 +21,9 @@
         <module>unit5/filesystem</module>
         <module>unit5/props</module>
         <module>unit6/propsmap</module>
+        <module>unit7/multithreadapp</module>
+        <module>unit7/sync1</module>
+        <module>unit7/sync2</module>
     </modules>
     <packaging>pom</packaging>
 
