@@ -25,5 +25,12 @@ Repo for my course tasks
 ## Unit 6
 - [features of collections](https://github.com/nikita715/java-fundamentals/tree/master/unit6/task1)
 - [propsmap](https://github.com/nikita715/java-fundamentals/tree/master/unit6/propsmap)
-- [assignments of links](https://github.com/nikita715/java-fundamentals/tree/master/unit6/task3)
+- [assignment of links](https://github.com/nikita715/java-fundamentals/tree/master/unit6/task3)
 - [functions of collections](https://github.com/nikita715/java-fundamentals/tree/master/unit6/task4)
+## Unit 7
+- [task1](https://github.com/nikita715/java-fundamentals/tree/master/unit7/sync1)
+- [propsthreads](https://github.com/nikita715/java-fundamentals/tree/master/unit7/sync2)
+- [task3](https://github.com/nikita715/java-fundamentals/tree/master/unit7/multithreadapp)
+## Unit 8
+- [task1](https://github.com/nikita715/java-fundamentals/tree/master/unit8/task1)
+- [task2](https://github.com/nikita715/java-fundamentals/tree/master/unit8/task2)
